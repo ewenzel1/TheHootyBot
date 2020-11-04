@@ -1,10 +1,11 @@
 # TheHootyBot
 A bot the replies to posts on Reddit that follow specific requirements. 
 
+# The Purpose:
 The program will survey the Kennesaw State subreddit and search for posts including the terms, "Covid 19," "Corona," etc. The bot will reply to these posts with a message encouraging the reader to stay positive and wear a mask.
 
 
-Tasks:
+# Tasks:
 
 - [x] Establish README.
 - [x] Add tasks with checkboxes
