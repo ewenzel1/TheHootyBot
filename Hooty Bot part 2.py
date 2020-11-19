@@ -23,7 +23,7 @@ for submission in subreddit.hot(limit=10):
 
     if submission.id not in posts_replied_to:
         
-        if re.search("Covid", sumission.title, re.IGNORECASE):
+        if re.search("Covid", submission.title, re.IGNORECASE):
             submission.reply("Hooty Hoo! Wear your mask!")
             print("Bot replying to: ", submission.title)
             posts_replied_to.append(submission.id)
